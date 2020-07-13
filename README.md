@@ -1,2 +1,3 @@
 # Millimeter-Wave-Beam-Training-
-The MATLAB code for implementing the paper "Low-Complexity Beam Training for Tracking Spatially Consistent Millimeter Wave Channels"
+The MATLAB code for implementing the paper "Low-Complexity Beam Training for Tracking Spatially Consistent Millimeter Wave Channels".
+The .mat file only contains channel matrices for one simulation run. The millimeter wave channels are generated using 3GPP TR 38.901 channle model. Readers are advised to implement the 3GPP spatial consistency Procedure A themselves associated with the 3GPP CDL channel model provided by MATLAB. The Procedure A is introduced in detail in Section 7.6.3.2 in the document 3GPP TR 38.901 V14.3.0. The functions included are mainly to perform beam training and tracking process. The simulation results shown in the paper are averaged over 500 monte-carlo runs for the same receiver's track. 
